@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header nav{
+    top: 10px;
+    width: 75%;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+
+header nav .name{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 0;
+}
+header nav .name a{
+  color: #000;
+  text-decoration: none;
+}
+
+header nav .List ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav .List ul li{
+    list-style: none;
+    padding: 3px 15px;
+}
+
+header nav .List ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px ;
+    font-weight: 600;
+}
+
+section{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+
+section .stuff{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+section .stuff .dev{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(61, 59, 59)
+}
+
+
+section .stuff .nameit{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+section .stuff .hello{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(61, 59, 59)
+}
+
+section .stuff #imgalign{
+    margin: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* text-align: center; */
+}
+
+section .stuff .ancer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+section .stuff .ancer .downcv{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 60px;
+    margin: 10px 5px;
+    padding: 10px 15px  
+}
+
+section .stuff .ancer .coninfo{
+    text-decoration: none;
+    color: #000;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 60px;
+    margin: 10px 5px;
+    padding: 10px 15px  
+}
+
+section .stuff .ancer .coninfo:hover{
+    background-color: rgb(59, 58, 58);
+    color: #fff;
+}
+
+section .stuff .ancer .downcv:hover{
+    background-color: rgb(59, 58, 58);
+    color: #fff;
+}
+
+section .stuff a .downcv{
+ display: flex;
+ flex-direction: row;
+}
+
+.link{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.git{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
