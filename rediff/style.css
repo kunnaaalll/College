@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    /* background-color: white; */
+    margin: 0;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    /* height: 700vh; */
+}
+
+
+header .navbar{
+    width: 1120px;
+    height: 30px;
+    margin: 120px auto;
+    background: #d7e1e3;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+header .navbar .searchbox{
+    display: flex;
+    height: 30px;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .searchbox #gsearch{
+    width: 240px;
+    border-radius: 60px;
+}
+
+header .navbar .searchbox .searchbar{
+    display: flex;
+    height: 25px;
+    right: 0;
+    position: relative;
+}
+
+header .navbar .searchbox .searchbar #searchicon{
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+    top: 4px;
+    border: none;
+}
+
+header .navbar .options{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+header .navbar .options ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+header .navbar .options ul li{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 5px;
+}
+
+header .navbar .options ul li a{
+    color: #000;
+    text-decoration: none;
+    /* padding-left: 0; */
+}
+
+header .navbar .options ul li a:hover{
+    border-bottom: 5px solid black;
+    padding-top: 5px;
+}
