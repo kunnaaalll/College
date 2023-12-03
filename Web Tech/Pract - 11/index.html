@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Practical 11</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript">
+      function validateForm(){ 
+      var txtFirstName = document.getElementById("fname");
+      var firstname= txtFirstName.value;
+      var txtPhoneNo = document.getElementById("PhoneNumber");
+      var phoneNo= txtPhoneNo.value;
+      var age1 = document.getElementById("age");
+      var age2= age1.value;
+      var pass1 = document.getElementById("pwd");
+      var p1 =pass1.value;
+      var pass2 = document.getElementById("cpwd");
+      var p2=pass2.value;}
+
+      if(firstname == ""){
+      alert("Name must be filled out"); txtFirstName.focus(); return false;
+      }
+
+      if(isNaN(phoneNo)){
+      alert("Please enter only numberic data");
+      txtPhoneNo.value= " ";
+      txtPhoneNo.focus();
+      return false;
+
+      if (isNaN(age2) || age2 < 15 || age2 > 40){
+      alert("Please enter age from 15 to 40");
+      age1.value="";
+       age1.focus();
+      return false;
+      }
+      if(p1.length < 6){
+      alert("**Password should be greater than 6 characters");
+      pass1.value="";
+      pass1.focus();
+      return false;
+      }
+      if(p2!=p1){
+      alert("Passwords did not match !");
+      pass2.value="";
+      pass2.focus();
+      return false;
+      }
+      return true;
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <br />
+      <form
+        class="form"
+        action="circle.html"
+        method="post"
+        onsubmit="return  validateForm()"
+      >
+        <h1>Students Registration</h1>
+
+        <table cellpadding="5px" cellspacing="5px">
+          <tr>
+            <td><label for="name">Students Name: </label></td>
+            <td><input type="text" name="nameId" id="fname" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="add">Address: </label></td>
+            <td><input type="text" name="adrId" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pno">Phone Number: </label></td>
+
+            <td>
+              <input type="text" name="pnoId" id="PhoneNumber" minlength="10" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="age">Age: </label></td>
+            <td><input type="text" name="age" id="age" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="mail">Email ID: </label></td>
+            <td><input type="text" name="email" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pwd">Password: </label></td>
+            <td><input type="password" name="pwd" id="pwd" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="cpwd">Confirm Password: </label></td>
+            <td><input type="password" name="cpwd" id="cpwd" /></td>
+          </tr>
+        </table>
+        <br />
+
+        <button type="submit" name="button">Submit</button><br /><br />
+      </form>
+    </div>
+  </body>
+</html>

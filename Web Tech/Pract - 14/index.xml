@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="A14.xsd">
+    <student>
+        <name>Kunal</name>
+        <age>27</age>
+        <marks>700</marks>
+    </student>
+
+    <student>
+        <name>Diya</name>
+        <age>25</age>
+        <marks>650</marks>
+    </student>
+
+    <student>
+        <name>Meera</name>
+        <age>25</age>
+        <marks>678</marks>
+    </student>
+
+    <student>
+        <name>Naman</name>
+        <age>22</age>
+        <marks>578</marks>
+    </student>
+</class>

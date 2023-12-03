@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompt Box</title>
+  </head>
+  <body>
+    <header>
+      <h2>
+        Write the java script code to enter five numbers in the prompt box.
+        Calculate addition of the numbers &average.
+      </h2>
+    </header>
+
+    <div class="container">
+      <button type="button" onclick="calculate()">
+        <b>CALCULATE THE ADDITION AND AVERAGE</b>
+      </button>
+    </div>
+    <script>
+      function calculate() {
+        var sum = 0;
+
+        for (var i = 1; i <= 5; i++) {
+          var input = prompt("Enter number " + i + ":");
+          var num = parseFloat(input);
+
+          if (!isNaN(num)) {
+            sum += num;
+          }
+        }
+        var average = sum / 5;
+        alert(
+          "Additon of the 5 numbers is: " +
+            sum +
+            "\nAverage of the numbers: " +
+            average
+        );
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pract12.dtd" type="application/xml-dtd"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+
+<sports>
+    <sport>
+        <name> Cricket </name>
+        <noOfPlayers> 11 </noOfPlayers>
+        <type> Outdoor </type>
+    </sport>
+
+    <sport>
+        <name> Chess </name>
+        <noOfPlayers> 2 </noOfPlayers>
+        <type> Indoor </type>
+    </sport>
+
+    <sport>
+        <name> Kabaddi </name>
+        <noOfPlayers> 7 </noOfPlayers>
+        <type> Outdoor </type>
+    </sport>
+
+    <sport>
+        <name> Tic Tac Toe </name>
+        <noOfPlayers> 2 </noOfPlayers>
+        <type> Indoor </type>
+    </sport>
+</sports>

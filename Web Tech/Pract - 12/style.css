@@ -1,0 +1,38 @@
+sports {
+  background-color: white;
+}
+
+name {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+  width: 10%;
+  background-color: darkgray;
+  border-radius: 20px 50px;
+}
+
+noOfPlayers,
+type {
+  font-size: 22px;
+  color: rgb(45, 7, 180);
+}
+
+name,
+noOfPlayers,
+type {
+  display: block;
+  margin: 10px 15px;
+  padding: 5px 0 5px 15px;
+}
+
+/*The ::before selector inserts something before the content of each selected element(s).*/
+
+noOfPlayers::before {
+  content: "No of Players : ";
+  color: green;
+}
+
+type::before {
+  content: "Type : ";
+  color: green;
+}

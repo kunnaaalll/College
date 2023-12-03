@@ -1,0 +1,14 @@
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sports (sport)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT sport (name|noOfPlayers|type)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT noOfPlayers (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT type (#PCDATA)>

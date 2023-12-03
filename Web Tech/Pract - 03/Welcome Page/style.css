@@ -1,0 +1,23 @@
+body{
+    background-color: floralwhite;
+}
+
+#abc{
+    text-align: center;
+    background-color: darksalmon;
+    color: blue;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.abc{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: aquamarine;
+    background-color: black;
+    display: block;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

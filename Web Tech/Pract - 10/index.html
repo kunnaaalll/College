@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Boxes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        Create a page which displays JavaScript popup boxes: Alert Confirm
+        Prompt
+      </h1>
+    </header>
+    <div class="box">
+      <button type="button" onclick="changeCol()">
+        <b>CHANGE THE BACKGROUND COLOR</b>
+      </button>
+    </div>
+    <div class="container">
+      <div class="place">
+        <h2>Virat Kohli Indian cricket player</h2>
+        <p>Height: 5'9" (1.75m)</p>
+        <p>Born: November 5, 1988 (age 35), Delhi, India</p>
+        <p>Net worth: $70 million(celebritynetworth.com)</p>
+        <p>
+          Important works: 2013 ICC Champions Trophy, 2011 Cricket World Cup,
+          Indian Premier League
+        </p>
+        <p>World Cups: 2019, 2015, 2011 , 2023</p>
+        <p>Children: Vamika Kohli</p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function changeCol() {
+        var res = confirm("Are you sure you want to change background color?");
+
+        if (res == true) {
+          alert("Hey! You are allowed to change the color!");
+
+          var cname = prompt("Please enter a color name:");
+
+          if (cname != null && cname !== "") {
+            document.body.style.backgroundColor = cname;
+            alert("Background color changed to " + cname + ".");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="A13.xsl"?>
+<class>
+    <student>
+        <name>Kunal</name>
+        <age>20</age>
+        <marks>700</marks>
+    </student>
+
+    <student>
+        <name>Diya</name>
+        <age>19</age>
+        <marks>650</marks>
+    </student>
+
+    <student>
+        <name>Meera</name>
+        <age>19</age>
+        <marks>678</marks>
+    </student>
+
+    <student>
+        <name>Naman</name>
+        <age>19</age>
+        <marks>578</marks>
+    </student>
+
+    <student>
+        <name>Slisha</name>
+        <age>18</age>
+        <marks>578</marks>
+    </student>
+</class>

@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+}
+
+.click{
+    margin-bottom: 0;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+}
+
+.connect{
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    /* border: 1px solid black; */
+    width: fit-content;
+}
